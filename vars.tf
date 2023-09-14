@@ -1,7 +1,5 @@
 variable "instance_type" {}
-variable "subnet_ids" {
-  type = set(string)
-}
+variable "subnet_ids" {}
 variable "name" {}
 variable "env" {}
 variable "vpc_id" {}
